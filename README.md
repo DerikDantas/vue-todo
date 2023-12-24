@@ -1,46 +1,19 @@
-# vue-todo
+# Vue App - Simple Todo CRUD
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository contains a project developed with Vue.js 3, aimed at studying and exploring the capabilities of this powerful Vue framework. The project is a CRUD (Create, Read, Update, Delete) for tasks (Todos).
 
-## Recommended IDE Setup
+## 🚀 Technologies Used
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue.js 3:** The Vue framework that provides an efficient and scalable development experience for modern web applications.
 
-## Type Support for `.vue` Imports in TS
+- **TypeScript:** A programming language that adds static typing to JavaScript, offering a safer and more robust development experience.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 🔧 Getting Started
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. **Install Dependencies:** Run `npm install` to install the project dependencies.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+2. **Start the Development Server:** Run `npm run dev` to start the development server.
 
-## Customize configuration
+## 📝 License
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This project is licensed under the [MIT License](LICENSE).
