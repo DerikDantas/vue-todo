@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type ITodo } from "./interfaces/Todo";
+import type {  ITodo } from "../interfaces/Todo";
 
 defineProps<{
   todosAsc: ITodo[];
